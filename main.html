@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agdasima&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Landing page</title>
+</head>
+<body>
+    <div class="container">
+        <header id="header">
+            <a href="main.html" class="refresh"><p class="title">Groundmann</p></a>
+            <form class="actions">
+                <div class="search">
+                    <span class="search-button durationmedium"><i class="fa-solid fa-magnifying-glass search-icon"></i></span>
+                    <input type="text" placeholder="What are you looking for? ... Keyboard,rgb,etc." class="durationmedium" id="input">
+                </div>
+                <p class="action durationmedium" id="mobile-search">Search <i class="fa-solid fa-magnifying-glass"></i></p>
+                <a href="#contact" class="action durationslow contact-us">Contact Us</a>
+                <i class="fa-solid fa-sun action durationslow" data-tooltip="Light mode"></i>
+                <i class="fa-solid fa-cart-shopping action durationslow top-cart" data-tooltip="See cart"></i>
+                <i class="fa-solid fa-heart action durationslow top-heart" data-tooltip="View Favourites"></i>
+            </form>
+        </header>
+        <home>
+            <div class="photo">
+                <img src="images/image.png" class="main image">
+                <p class="multitext"></p>
+            </div>
+            <div class="about-us">
+                <p class="about us durationmedium">About us</p>
+                <p class="about shop durationfast">Groundmann provides high quality keyboards for low price which is affordable for everyone.</p>
+            </div>
+            <span class="top hr"></span>
+        </home>
+        <div class="content">
+            <p class="products"><i class="fa-solid fa-fire"></i> Trending Products</p>
+            <form class="first product">
+                    <div class="item img">
+                        <img src="images/img1.png" class="product-image" id="product1">
+                        <img src="images/img10.png" class="product-image2"  id="product2">
+                    </div>
+                    <div class="description--button">
+                        <div class="item description">
+                            <p class="item-title"><strong class="special">Deltaco Gaming </strong>RGB Mechanical Keyboard</p>
+                            <p class="price">Price: <strong class="special">$39.99</strong></p>
+                            <p class="item-description">Beatiuful mechanical keyboard with RGB colors, perfect for Programming and gaming, it will bring great comfort for user.</p>
+                        </div>
+                        <div class="color">
+                            <span class="white" id="white"></span>
+                            <span class="black" id="black"></span>
+                        </div>
+                        <div class="buttons">
+                            <span class="buy button">Buy now</span>
+                            <span class="cart button">Add to cart <i class="fa-solid fa-cart-shopping"></i></span>
+                            <span class="favourite button" id="favourite"><i class="fa-solid fa-heart"></i></span>
+                        </div>
+                    </div>
+            </form>
+            <span class="middle hr"></span>
+            <form class="second product">
+                <div class="item img">
+                    <img src="images/img2.png" class="product-image" id="product10">
+                    <img src="images/img20.png" class="product-image2" id="product20">
+                </div>
+                <div class="description--button">
+                    <div class="item description">
+                        <p class="item-title"><strong class="special">Gaming </strong>Fully Decorated RGB Mechanical Keyboard</p>
+                        <p class="price">Price: <strong class="special">$49.99</strong></p>
+                        <p class="item-description">Mechanical keyboard with saturated RGB light colors, perfect choice for gamers.</p>
+                    </div>
+                    <div class="color">
+                        <span class="white" id="white2"></span>
+                        <span class="black" id="black2"></span>
+                    </div>                    <div class="buttons">
+                        <span class="buy button">Buy now</span>
+                        <span class="cart button">Add to cart <i class="fa-solid fa-cart-shopping"></i></span>
+                        <span class="favourite button" id="favourite2" ><i class="fa-solid fa-heart"></i></span>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <footer id="contact">
+            <div class="socials">
+                <p class="social">Our socials</p>
+                <div class="social icon">
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-github"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+            </div>
+            <div class="author">
+                <p class="author-is">Project Author</p>
+                <p class="author-name">George Stoic</p>
+            </div>
+            <div class="mails">
+                <p class="mail">Our Email</p>
+                <a href="" target="_blank"><p class="email">example@gmail.com</p></a>
+            </div>
+        </footer>
+    </div>
+    <script src="https://kit.fontawesome.com/cf852e3d0e.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
